@@ -1,0 +1,65 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE work.stageTwoPackage.ALL ;
+
+ENTITY stageTwo IS 
+     PORT (
+		clk, LuiIn, RegWriteIn : IN STD_LOGIC ;
+		A3In : IN STD_LOGIC_VECTOR(4 DOWNTO 0) ;
+		Instruction, PcPlus4, WriteData, SignImmData : IN std_logic_vector (31 DOWNTO 0) ;
+		RD1, RD2, shamt, signImm, PcBranch : OUT std_logic_vector (31 DOWNTO 0) ;
+		JumpOut : OUT std_logic_vector (27 DOWNTO 0) ;
+		LuiOut, RegWriteOut, unsignedSignal, sa, MemToRegSignal, MemWriteSignal, AluSrc,l_half,l_byte,nop: OUT STD_LOGIC ;
+		PcSrc, Jump, Jr: OUT STD_LOGIC ;
+		A3Out : OUT STD_LOGIC_VECTOR(4 DOWNTO 0) ;
+		AluControl: OUT STD_LOGIC_VECTOR( 3 DOWNTO 0) 
+	);
+END stageTwo;
+
+ARCHITECTURE stageTwoArch OF stageTwo IS 
+
+	SIGNAL M2Out, M3Out, signImmSignalOut, RD1Signal, RD2Signal, AdderIn  : STD_LOGIC_VECTOR(31 DOWNTO 0) ;
+	SIGNAL rs, rt, rd, shamtSignal : STD_LOGIC_VECTOR(4 DOWNTO 0) ;
+	SIGNAL RegDst : STD_LOGIC_VECTOR(1 DOWNTO 0) ;
+	SIGNAL opcode, funct : STD_LOGIC_VECTOR(5 DOWNTO 0) ;
+	SIGNAL signImmSignalIn : STD_LOGIC_VECTOR(15 DOWNTO 0) ;
+	SIGNAL jumpSignal : STD_LOGIC_VECTOR(27 DOWNTO 0) ;
+	SIGNAL  BranchSignal,lh_sig,lb_sig,nop_sig,bc_out : STD_LOGIC ;
+	SIGNAL AluOp : STD_LOGIC_VECTOR(3 DOWNTO 0) ;
+	SIGNAL b_type : std_logic_vector(2 DOWNTO 0);
+	BEGIN 
+	
+	
+		PcSrc <= BranchSignal and bc_out ;
+		RD1 <= RD1Signal ;
+		RD2 <= RD2Signal ;
+		signImm <= signImmSignalOut ;
+
+		M1 : mux_3_5bit PORT MAP(RegDst, rt, rd, "11111", A3Out) ; 
+		M2 : mux_2_1 PORT MAP(LuiIn, WriteData, SignImmData, M2OUT) ; 
+		RF : RegistersFile PORT MAP(rs, rt, A3In, M2OUT, clk, RegWriteIn, RD1Signal, RD2Signal) ;
+		BC : B_circuits PORT MAP(RD1Signal, RD2Signal, clk,b_type,bc_out) ;
+		SE1: signextenderFiveBits PORT MAP(shamtSignal, shamt) ;
+		SE2: signextender PORT MAP(signImmSignalIn, signImmSignalOut) ;
+		SL1: shiftleft PORT MAP(signImmSignalOut, AdderIn) ;
+		SL2: shiftleft28In PORT MAP(jumpSignal, JumpOut) ;
+		ADD: Adder PORT MAP(clk, AdderIn, PcPlus4, PcBranch) ;
+		
+		AD : AluDecoder PORT MAP(AluOp, funct, clk, AluControl,  unsignedSignal, sa) ;
+		MD : MainDecoder PORT MAP(opcode, clk, RegWriteOut, RegDst, AluSrc, BranchSignal
+			, MemWriteSignal, MemToRegSignal, AluOp, Jump, Jr,LuiOut , b_type,lh_sig,lb_sig,nop_sig) ;
+	    l_half <=lh_sig ;
+	    l_byte<=lb_sig;
+	    nop<= nop_sig;
+		opcode <= Instruction(31 DOWNTO 26) ;
+		funct <= Instruction(5 DOWNTO 0) ;
+		rs <= Instruction(25 DOWNTO 21) ;
+		rt <= Instruction(20 DOWNTO 16) ;
+		rd <= Instruction(15 DOWNTO 11) ;
+		shamtSignal <= Instruction(10 DOWNTO 6) ;
+		signImmSignalIn <= Instruction(15 DOWNTO 0) ;
+		jumpSignal <= Instruction(27 DOWNTO 0) ;
+		
+END stageTwoArch ;
+
+

@@ -1,0 +1,1624 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/omaar/Desktop/Pipeline Mips
+Eadder
+Z1 w1545488573
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8C:/Users/omaar/Desktop/Pipeline Mips/Adder.vhd
+Z8 FC:/Users/omaar/Desktop/Pipeline Mips/Adder.vhd
+l0
+L6
+V@@0icKL8UNGX2]aninOAe3
+!s100 WiB8A:3aR1>noc91IMK:i0
+Z9 OP;C;10.4a;61
+32
+Z10 !s110 1548966555
+!i10b 1
+Z11 !s108 1548966555.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/Adder.vhd|
+Z13 !s107 C:/Users/omaar/Desktop/Pipeline Mips/Adder.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit -O0
+Z15 tExplicit 1
+Abehav
+R2
+R3
+R4
+R5
+R6
+DEx4 work 5 adder 0 22 @@0icKL8UNGX2]aninOAe3
+l16
+L14
+V@C4<FI4@bJJS_[PDCVcVi2
+!s100 c@CZ1=2=EaQ9`T8O@OYBf3
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Eadderfour
+Z16 w1549051218
+R2
+R3
+R4
+R5
+R6
+R0
+Z17 8C:/Users/omaar/Desktop/Pipeline Mips/AdderFour.vhd
+Z18 FC:/Users/omaar/Desktop/Pipeline Mips/AdderFour.vhd
+l0
+L6
+Vn;`[N`:]XYKf6@zc9H]BY1
+!s100 17Y0FS^;NnFLM_[F`Lj9a3
+R9
+32
+Z19 !s110 1549057312
+!i10b 1
+Z20 !s108 1549057312.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/AdderFour.vhd|
+Z22 !s107 C:/Users/omaar/Desktop/Pipeline Mips/AdderFour.vhd|
+!i113 1
+R14
+R15
+Abehav
+R2
+R3
+R4
+R5
+R6
+DEx4 work 9 adderfour 0 22 n;`[N`:]XYKf6@zc9H]BY1
+l16
+L14
+VR_@MR]KT73i<]kDJ1b_X50
+!s100 ogS=RiiInJ10PiKKC@7IR3
+R9
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Ealu
+Z23 w1548519795
+R2
+R5
+R6
+R0
+Z24 8C:/Users/omaar/Desktop/Pipeline Mips/alu.vhd
+Z25 FC:/Users/omaar/Desktop/Pipeline Mips/alu.vhd
+l0
+L5
+VTdK_4z56UlW=XfS]5`DEa2
+!s100 Sb4eI5GZAUZ?JL`M:c>_22
+R9
+32
+Z26 !s110 1548966551
+!i10b 1
+Z27 !s108 1548966551.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/alu.vhd|
+Z29 !s107 C:/Users/omaar/Desktop/Pipeline Mips/alu.vhd|
+!i113 1
+R14
+R15
+Abehav
+R2
+R5
+R6
+DEx4 work 3 alu 0 22 TdK_4z56UlW=XfS]5`DEa2
+l19
+L15
+Vc:2]QFXn24>H2MgWncKBV3
+!s100 FRhNT?mdmHGCD>N5?;MhN0
+R9
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R14
+R15
+Ealudecoder
+Z30 w1548519365
+R5
+R6
+R0
+Z31 8C:/Users/omaar/Desktop/Pipeline Mips/aludecoder.vhd
+Z32 FC:/Users/omaar/Desktop/Pipeline Mips/aludecoder.vhd
+l0
+L4
+Vi`CMZL7AQ]SUBSR_ZnULX2
+!s100 CzE5GXa8h_7dDaUYa]M0m1
+R9
+32
+R26
+!i10b 1
+R27
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/aludecoder.vhd|
+Z34 !s107 C:/Users/omaar/Desktop/Pipeline Mips/aludecoder.vhd|
+!i113 1
+R14
+R15
+Aaludecoderarch
+R5
+R6
+DEx4 work 10 aludecoder 0 22 i`CMZL7AQ]SUBSR_ZnULX2
+l18
+L14
+VmQbK:_G;PDh9=C^`25IcK1
+!s100 7la_>K_9^?_6^QaT`zC=I1
+R9
+32
+R26
+!i10b 1
+R27
+R33
+R34
+!i113 1
+R14
+R15
+Edata_mem
+Z35 w1521430680
+R2
+R5
+R6
+R0
+Z36 8C:/Users/omaar/Desktop/Pipeline Mips/data_mem.vhd
+Z37 FC:/Users/omaar/Desktop/Pipeline Mips/data_mem.vhd
+l0
+L8
+VU5MMiR`4zn`9]D0]@7FaV1
+!s100 SNF><HebF?a5:IOID=c4K0
+R9
+32
+Z38 !s110 1548966552
+!i10b 1
+Z39 !s108 1548966552.000000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/data_mem.vhd|
+Z41 !s107 C:/Users/omaar/Desktop/Pipeline Mips/data_mem.vhd|
+!i113 1
+R14
+R15
+Abehavioral_dm
+R2
+R5
+R6
+DEx4 work 8 data_mem 0 22 U5MMiR`4zn`9]D0]@7FaV1
+l36
+L18
+VJOXVk=:?[lbQVNL94k>O;0
+!s100 @UfSXHS8@g]BJOEZ]lAN[3
+R9
+32
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R14
+R15
+Edatamemory
+Z42 w1548465868
+R2
+R5
+R6
+R0
+Z43 8C:/Users/omaar/Desktop/Pipeline Mips/DataMemory.vhd
+Z44 FC:/Users/omaar/Desktop/Pipeline Mips/DataMemory.vhd
+l0
+L5
+VXgVnRZQ>_mmWM:8OWVXNM2
+!s100 [8658?58`k6Qh[P`dcI2_3
+R9
+32
+R38
+!i10b 1
+R39
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/DataMemory.vhd|
+Z46 !s107 C:/Users/omaar/Desktop/Pipeline Mips/DataMemory.vhd|
+!i113 1
+R14
+R15
+Adatamemorybehaviour
+R2
+R5
+R6
+DEx4 work 10 datamemory 0 22 XgVnRZQ>_mmWM:8OWVXNM2
+l20
+L14
+VJ;ViGKkh>HMGekV<P2SU:2
+!s100 Z6W;<^O@aP:JWoK24dgJ60
+R9
+32
+R38
+!i10b 1
+R39
+R45
+R46
+!i113 1
+R14
+R15
+Edatapath
+Z47 w1548875936
+Z48 DPx4 work 15 datapathpackage 0 22 8`567z?B_c?gBO]zH;Y=52
+R5
+R6
+R0
+Z49 8C:/Users/omaar/Desktop/Pipeline Mips/datapath.vhd
+Z50 FC:/Users/omaar/Desktop/Pipeline Mips/datapath.vhd
+l0
+L5
+V]Jc2CZ01oZ@2ZHoEhBmjm0
+!s100 ]dHfeDzDXML54E6d@8m_B3
+R9
+32
+R38
+!i10b 1
+R39
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/datapath.vhd|
+Z52 !s107 C:/Users/omaar/Desktop/Pipeline Mips/datapath.vhd|
+!i113 1
+R14
+R15
+Adatapatharch
+R48
+R5
+R6
+DEx4 work 8 datapath 0 22 ]Jc2CZ01oZ@2ZHoEhBmjm0
+l43
+L11
+VU=YkG9^hj`e7Q_^o9ikjb2
+!s100 ;zBRQ?TK6Zm:ZUZhI=o;M1
+R9
+32
+R38
+!i10b 1
+R39
+R51
+R52
+!i113 1
+R14
+R15
+Pdatapathpackage
+R5
+R6
+w1548874969
+R0
+8C:/Users/omaar/Desktop/Pipeline Mips/datapathPackage.vhd
+FC:/Users/omaar/Desktop/Pipeline Mips/datapathPackage.vhd
+l0
+L3
+V8`567z?B_c?gBO]zH;Y=52
+!s100 :d[H@[QP7Uz6ih3<i040A3
+R9
+32
+R38
+!i10b 1
+R39
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/datapathPackage.vhd|
+!s107 C:/Users/omaar/Desktop/Pipeline Mips/datapathPackage.vhd|
+!i113 1
+R14
+R15
+Edatapathtestbench
+Z53 w1548859757
+R48
+R5
+R6
+R0
+Z54 8C:/Users/omaar/Desktop/Pipeline Mips/datapathTestBench.vhd
+Z55 FC:/Users/omaar/Desktop/Pipeline Mips/datapathTestBench.vhd
+l0
+L5
+Vo;[T;TS3Om2Gj=2Tli?Sz0
+!s100 O1M2Z5PS:Hejca9XR<OAm0
+R9
+32
+R10
+!i10b 1
+R11
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/datapathTestBench.vhd|
+Z57 !s107 C:/Users/omaar/Desktop/Pipeline Mips/datapathTestBench.vhd|
+!i113 1
+R14
+R15
+Abehav
+R48
+R5
+R6
+DEx4 work 17 datapathtestbench 0 22 o;[T;TS3Om2Gj=2Tli?Sz0
+l19
+L8
+VlQEPOg`C:[@XS;@=<2VjG1
+!s100 ^]FQjR45BU;d1Y@ddXZKW1
+R9
+32
+R10
+!i10b 1
+R11
+R56
+R57
+!i113 1
+R14
+R15
+Edemux1x32
+Z58 w1544826613
+R5
+R6
+R0
+Z59 8C:/Users/omaar/Desktop/Pipeline Mips/deMUX32bit.vhd
+Z60 FC:/Users/omaar/Desktop/Pipeline Mips/deMUX32bit.vhd
+l0
+L4
+V9:Vz19l72kGia7[[l;`]62
+!s100 JezOJXiN8ZnOGH2h=Rh2O2
+R9
+32
+R38
+!i10b 1
+R39
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/deMUX32bit.vhd|
+Z62 !s107 C:/Users/omaar/Desktop/Pipeline Mips/deMUX32bit.vhd|
+!i113 1
+R14
+R15
+Ademux1x32arch
+R5
+R6
+DEx4 work 9 demux1x32 0 22 9:Vz19l72kGia7[[l;`]62
+l14
+L13
+VWEz@5^22N`B8c[Q;GZQ[01
+!s100 0bWnnVE1g^aGYQF@Uz;VG0
+R9
+32
+R38
+!i10b 1
+R39
+R61
+R62
+!i113 1
+R14
+R15
+Edflipflop
+Z63 w1544827127
+R5
+R6
+R0
+Z64 8C:/Users/omaar/Desktop/Pipeline Mips/dflip4.vhd
+Z65 FC:/Users/omaar/Desktop/Pipeline Mips/dflip4.vhd
+l0
+L7
+VC8:Q9SdTE`Fm6oZk5UjZ20
+!s100 ;8jW5_^BfGF``iLdf;J]m1
+R9
+32
+R38
+!i10b 1
+R39
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/dflip4.vhd|
+Z67 !s107 C:/Users/omaar/Desktop/Pipeline Mips/dflip4.vhd|
+!i113 1
+R14
+R15
+Adflipfloparch
+R5
+R6
+DEx4 work 9 dflipflop 0 22 C8:Q9SdTE`Fm6oZk5UjZ20
+l18
+L16
+V^Vzf;h_Lgho?h5bzno?m:0
+!s100 XF40z=>NbHZZSmk?H:kYF2
+R9
+32
+R38
+!i10b 1
+R39
+R66
+R67
+!i113 1
+R14
+R15
+Eequald
+Z68 w1545480056
+R3
+R4
+R5
+R6
+R0
+Z69 8C:/Users/omaar/Desktop/Pipeline Mips/equalD.vhd
+Z70 FC:/Users/omaar/Desktop/Pipeline Mips/equalD.vhd
+l0
+L5
+VQC2[5eiLVDj2Mo=QKIC6W0
+!s100 6JR=_ZhzVhjQ@DcRINh7:0
+R9
+32
+Z71 !s110 1548966553
+!i10b 1
+R39
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/equalD.vhd|
+Z73 !s107 C:/Users/omaar/Desktop/Pipeline Mips/equalD.vhd|
+!i113 1
+R14
+R15
+Abehave
+R3
+R4
+R5
+R6
+DEx4 work 6 equald 0 22 QC2[5eiLVDj2Mo=QKIC6W0
+l16
+L14
+VQ2TE?lNm2;zIAoYD_H[TB3
+!s100 5BdW7ZKTNk]nzeaC>VeFO2
+R9
+32
+R71
+!i10b 1
+R39
+R72
+R73
+!i113 1
+R14
+R15
+Einstructionmemory
+Z74 w1549058134
+R2
+R5
+R6
+R0
+Z75 8C:/Users/omaar/Desktop/Pipeline Mips/InstructionMemory.vhd
+Z76 FC:/Users/omaar/Desktop/Pipeline Mips/InstructionMemory.vhd
+l0
+L5
+VGR[05boTR1F2LK>@`5Fz02
+!s100 o:RPD4]6]]8`fRT62]5Po0
+R9
+32
+Z77 !s110 1549058149
+!i10b 1
+Z78 !s108 1549058149.000000
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/InstructionMemory.vhd|
+Z80 !s107 C:/Users/omaar/Desktop/Pipeline Mips/InstructionMemory.vhd|
+!i113 1
+R14
+R15
+Ainstructionmemorybehaviour
+R2
+R5
+R6
+Z81 DEx4 work 17 instructionmemory 0 22 GR[05boTR1F2LK>@`5Fz02
+l19
+L13
+VMXDB]mN^@fGm97S6B;[0L0
+!s100 ^C;J?9Jk7W?jR^M3NLRWi3
+R9
+32
+R77
+!i10b 1
+R78
+R79
+R80
+!i113 1
+R14
+R15
+Emaindecoder
+Z82 w1549057285
+R2
+R5
+R6
+R0
+Z83 8C:/Users/omaar/Desktop/Pipeline Mips/MainDecoder.vhd
+Z84 FC:/Users/omaar/Desktop/Pipeline Mips/MainDecoder.vhd
+l0
+L5
+VDl5`cc?=cCCONdWHDzRSh1
+!s100 ]OXhHdSle8BlUFDBGgO]C2
+R9
+32
+Z85 !s110 1549057304
+!i10b 1
+Z86 !s108 1549057304.000000
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/MainDecoder.vhd|
+Z88 !s107 C:/Users/omaar/Desktop/Pipeline Mips/MainDecoder.vhd|
+!i113 1
+R14
+R15
+Amaindecoderbehav
+R2
+R5
+R6
+DEx4 work 11 maindecoder 0 22 Dl5`cc?=cCCONdWHDzRSh1
+l31
+L27
+V=XAiI50=8RSI:?46G_>?j0
+!s100 mRFiUE6BNN1j;3PiPDaB`2
+R9
+32
+R85
+!i10b 1
+R86
+R87
+R88
+!i113 1
+R14
+R15
+Emux32x1
+Z89 w1544826641
+Z90 DPx4 work 9 mypackage 0 22 3;>7[3oM?jAm0F:giieg]0
+R5
+R6
+R0
+Z91 8C:/Users/omaar/Desktop/Pipeline Mips/MUX32.vhd
+Z92 FC:/Users/omaar/Desktop/Pipeline Mips/MUX32.vhd
+l0
+L5
+VzFTmiQfimeCm8eM0TSQa12
+!s100 nz^T@NBo^H[H`F[f^XMa:0
+R9
+32
+R71
+!i10b 1
+Z93 !s108 1548966553.000000
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/MUX32.vhd|
+Z95 !s107 C:/Users/omaar/Desktop/Pipeline Mips/MUX32.vhd|
+!i113 1
+R14
+R15
+Amux32x1arch
+R90
+R5
+R6
+DEx4 work 7 mux32x1 0 22 zFTmiQfimeCm8eM0TSQa12
+l15
+L14
+Vf[n7>CU_Goh7YV=0MPP]Z0
+!s100 543ZhXh93O`07LNiF>az22
+R9
+32
+R71
+!i10b 1
+R93
+R94
+R95
+!i113 1
+R14
+R15
+Emux8_1
+Z96 w1548436329
+R5
+R6
+R0
+Z97 8C:/Users/omaar/Desktop/Pipeline Mips/mux_8_1.vhd
+Z98 FC:/Users/omaar/Desktop/Pipeline Mips/mux_8_1.vhd
+l0
+L4
+Vd__bAOghM=kQP2I_fBgJM0
+!s100 lfEm9JflLOA?F=4Q<BOU@1
+R9
+32
+R71
+!i10b 1
+R93
+Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/mux_8_1.vhd|
+Z100 !s107 C:/Users/omaar/Desktop/Pipeline Mips/mux_8_1.vhd|
+!i113 1
+R14
+R15
+Abehave_of_mux8_1
+R5
+R6
+DEx4 work 6 mux8_1 0 22 d__bAOghM=kQP2I_fBgJM0
+l12
+L11
+VRLjU:el`_QcJ0LC<k54>?0
+!s100 LQTf`WjZI;hDzFPWQR:D`1
+R9
+32
+R71
+!i10b 1
+R93
+R99
+R100
+!i113 1
+R14
+R15
+Emux_2_1
+Z101 w1548438770
+R3
+R4
+R5
+R6
+R0
+Z102 8C:/Users/omaar/Desktop/Pipeline Mips/mux_2_1.vhd
+Z103 FC:/Users/omaar/Desktop/Pipeline Mips/mux_2_1.vhd
+l0
+L5
+VhQ6NJCCOW13BK6K8=`U?<2
+!s100 IjJ6:EJE3i9gm=BV388M@1
+R9
+32
+R71
+!i10b 1
+R93
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/mux_2_1.vhd|
+Z105 !s107 C:/Users/omaar/Desktop/Pipeline Mips/mux_2_1.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R3
+R4
+R5
+R6
+DEx4 work 7 mux_2_1 0 22 hQ6NJCCOW13BK6K8=`U?<2
+l15
+L14
+VX4i[JiDOmd@jLQ5nj57ET2
+!s100 ;LcYb>9<a43B3aP1F6GmC0
+R9
+32
+R71
+!i10b 1
+R93
+R104
+R105
+!i113 1
+R14
+R15
+Emux_2_1bit
+Z106 w1548535411
+R3
+R4
+R5
+R6
+R0
+Z107 8C:/Users/omaar/Desktop/Pipeline Mips/mux_2_1bit.vhd
+Z108 FC:/Users/omaar/Desktop/Pipeline Mips/mux_2_1bit.vhd
+l0
+L5
+V=gh6DJi`5Of<?hECc1e0g3
+!s100 g1n0=]]RLkcdT^_06zj4Z1
+R9
+32
+R71
+!i10b 1
+R93
+Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/mux_2_1bit.vhd|
+Z110 !s107 C:/Users/omaar/Desktop/Pipeline Mips/mux_2_1bit.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R3
+R4
+R5
+R6
+DEx4 work 10 mux_2_1bit 0 22 =gh6DJi`5Of<?hECc1e0g3
+l14
+L13
+VoT4Ihg?V3]WjTG6c9FB213
+!s100 en[eY@FUBBGJh;0Aoi:MZ3
+R9
+32
+R71
+!i10b 1
+R93
+R109
+R110
+!i113 1
+R14
+R15
+Emux_3_1
+Z111 w1548438789
+R3
+R4
+R5
+R6
+R0
+Z112 8C:/Users/omaar/Desktop/Pipeline Mips/mux_3_1.vhd
+Z113 FC:/Users/omaar/Desktop/Pipeline Mips/mux_3_1.vhd
+l0
+L5
+VkR@hI6=[La2lRBXUZ>DD92
+!s100 EkKNbe6X]aj]fE=YBY]Mh1
+R9
+32
+R71
+!i10b 1
+R93
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/mux_3_1.vhd|
+Z115 !s107 C:/Users/omaar/Desktop/Pipeline Mips/mux_3_1.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R3
+R4
+R5
+R6
+DEx4 work 7 mux_3_1 0 22 kR@hI6=[La2lRBXUZ>DD92
+l16
+L15
+Vf83I:3P6SUMiRh5NkHO_[1
+!s100 i5zAabJOGcbH<HZJml_Ha3
+R9
+32
+R71
+!i10b 1
+R93
+R114
+R115
+!i113 1
+R14
+R15
+Emux_3_5bit
+Z116 w1548535868
+R3
+R4
+R5
+R6
+R0
+Z117 8C:/Users/omaar/Desktop/Pipeline Mips/mux_3_5bit.vhd
+Z118 FC:/Users/omaar/Desktop/Pipeline Mips/mux_3_5bit.vhd
+l0
+L5
+VPV@M>df9_SgaT4ciEI8MG1
+!s100 SO:0U_g;7mmlBAii`:b`>3
+R9
+32
+R71
+!i10b 1
+R93
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/mux_3_5bit.vhd|
+Z120 !s107 C:/Users/omaar/Desktop/Pipeline Mips/mux_3_5bit.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R3
+R4
+R5
+R6
+DEx4 work 10 mux_3_5bit 0 22 PV@M>df9_SgaT4ciEI8MG1
+l16
+L15
+V<XUDo;j0K[nmIj@1YRY?:1
+!s100 YW_L]a7FUIcIjX]YRZ31D1
+R9
+32
+R71
+!i10b 1
+R93
+R119
+R120
+!i113 1
+R14
+R15
+Pmypackage
+R5
+R6
+w1544825126
+R0
+8C:/Users/omaar/Desktop/Pipeline Mips/myPackage.vhd
+FC:/Users/omaar/Desktop/Pipeline Mips/myPackage.vhd
+l0
+L3
+V3;>7[3oM?jAm0F:giieg]0
+!s100 znoP:ikAR9jX;gjeBA4602
+R9
+32
+R71
+!i10b 1
+R93
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/myPackage.vhd|
+!s107 C:/Users/omaar/Desktop/Pipeline Mips/myPackage.vhd|
+!i113 1
+R14
+R15
+Epcregister
+Z121 w1549057389
+R3
+R4
+R5
+R6
+R0
+Z122 8C:/Users/omaar/Desktop/Pipeline Mips/pcRegister.vhd
+Z123 FC:/Users/omaar/Desktop/Pipeline Mips/pcRegister.vhd
+l0
+L7
+VENE25L^[X5ETW15MX_?S<2
+!s100 6jgO8n]CVJ6DSORPN;VXA1
+R9
+32
+Z124 !s110 1549057404
+!i10b 1
+Z125 !s108 1549057404.000000
+Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/pcRegister.vhd|
+Z127 !s107 C:/Users/omaar/Desktop/Pipeline Mips/pcRegister.vhd|
+!i113 1
+R14
+R15
+Apc_arch
+R3
+R4
+R5
+R6
+DEx4 work 10 pcregister 0 22 ENE25L^[X5ETW15MX_?S<2
+l22
+L18
+Vo_B0=f29=j?zI3z?M7Fb<3
+!s100 ;k3?K^GFJ^:6d2G1?1<=A1
+R9
+32
+R124
+!i10b 1
+R125
+R126
+R127
+!i113 1
+R14
+R15
+Eregaux1
+Z128 w1548505112
+R5
+R6
+R0
+Z129 8C:/Users/omaar/Desktop/Pipeline Mips/aux_reg_1_2.vhd
+Z130 FC:/Users/omaar/Desktop/Pipeline Mips/aux_reg_1_2.vhd
+l0
+L6
+VXSGgCNojeN>9i8M5;XFDZ0
+!s100 m=IoD5TTo]Z]h=B6Qf;e<2
+R9
+32
+R38
+!i10b 1
+R39
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/aux_reg_1_2.vhd|
+Z132 !s107 C:/Users/omaar/Desktop/Pipeline Mips/aux_reg_1_2.vhd|
+!i113 1
+R14
+R15
+Aregaux1_behave
+R5
+R6
+DEx4 work 7 regaux1 0 22 XSGgCNojeN>9i8M5;XFDZ0
+l16
+L15
+VALS_?cKUTc^4z6=GFcF:N0
+!s100 XCLo2YKS]SB1UNC1WcWY53
+R9
+32
+R38
+!i10b 1
+R39
+R131
+R132
+!i113 1
+R14
+R15
+Eregaux2
+Z133 w1548866879
+R5
+R6
+R0
+Z134 8C:/Users/omaar/Desktop/Pipeline Mips/aux_reg_2_3.vhd
+Z135 FC:/Users/omaar/Desktop/Pipeline Mips/aux_reg_2_3.vhd
+l0
+L6
+VJX2;AjjYoOBa>[Yco`nzX0
+!s100 G?OL1^PR]<IZIa;X9Deek1
+R9
+32
+R38
+!i10b 1
+R39
+Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/aux_reg_2_3.vhd|
+Z137 !s107 C:/Users/omaar/Desktop/Pipeline Mips/aux_reg_2_3.vhd|
+!i113 1
+R14
+R15
+Aregaux2_behave
+R5
+R6
+DEx4 work 7 regaux2 0 22 JX2;AjjYoOBa>[Yco`nzX0
+l45
+L44
+VQ4^gS5EF=_NYmPR<CH6Dj1
+!s100 N[5>GXjnj3c_f:lz`CT453
+R9
+32
+R38
+!i10b 1
+R39
+R136
+R137
+!i113 1
+R14
+R15
+Eregaux3
+Z138 w1548867442
+R5
+R6
+R0
+Z139 8C:/Users/omaar/Desktop/Pipeline Mips/aux_reg_3_4.vhd
+Z140 FC:/Users/omaar/Desktop/Pipeline Mips/aux_reg_3_4.vhd
+l0
+L6
+VH:EmEjRJM>g`TS8YWU[lO2
+!s100 RG43F_?E@Lk]A[MbP>k=41
+R9
+32
+R38
+!i10b 1
+R39
+Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/aux_reg_3_4.vhd|
+Z142 !s107 C:/Users/omaar/Desktop/Pipeline Mips/aux_reg_3_4.vhd|
+!i113 1
+R14
+R15
+Aregaux3_behave
+R5
+R6
+DEx4 work 7 regaux3 0 22 H:EmEjRJM>g`TS8YWU[lO2
+l34
+L33
+VIMY]S?f>=;<ObY^3hm4Z_0
+!s100 BRaaNAVdZjilfZ:zZ@;a@0
+R9
+32
+R38
+!i10b 1
+R39
+R141
+R142
+!i113 1
+R14
+R15
+Eregaux4
+Z143 w1548867465
+R5
+R6
+R0
+Z144 8C:/Users/omaar/Desktop/Pipeline Mips/aux_reg_4_5.vhd
+Z145 FC:/Users/omaar/Desktop/Pipeline Mips/aux_reg_4_5.vhd
+l0
+L6
+V5_HSlRUBY0T_;9eio5nHR3
+!s100 T=njh5J8_a<h?<oACXF@l2
+R9
+32
+R38
+!i10b 1
+R39
+Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/aux_reg_4_5.vhd|
+Z147 !s107 C:/Users/omaar/Desktop/Pipeline Mips/aux_reg_4_5.vhd|
+!i113 1
+R14
+R15
+Aregaux4_behave
+R5
+R6
+DEx4 work 7 regaux4 0 22 5_HSlRUBY0T_;9eio5nHR3
+l32
+L31
+V1:dh4QC?Xo^@ZggCEHjYh1
+!s100 ;ER;5obRIXfd>de>gRZM23
+R9
+32
+R38
+!i10b 1
+R39
+R146
+R147
+!i113 1
+R14
+R15
+Eregister16bit
+Z148 w1544823035
+R5
+R6
+R0
+Z149 8C:/Users/omaar/Desktop/Pipeline Mips/register16bit.vhd
+Z150 FC:/Users/omaar/Desktop/Pipeline Mips/register16bit.vhd
+l0
+L6
+V[MJOKg9hFlDLB2=Mh8@TB0
+!s100 43GX4gcBYK_4CNiamXXAa0
+R9
+32
+Z151 !s110 1548966554
+!i10b 1
+Z152 !s108 1548966554.000000
+Z153 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/register16bit.vhd|
+Z154 !s107 C:/Users/omaar/Desktop/Pipeline Mips/register16bit.vhd|
+!i113 1
+R14
+R15
+Aregister16bitarch
+R5
+R6
+DEx4 work 13 register16bit 0 22 [MJOKg9hFlDLB2=Mh8@TB0
+l27
+L15
+VL;`]?_h@]L0YiX>Gb17>e0
+!s100 :@2NXL^SEY9il4:0WZ[V;2
+R9
+32
+R151
+!i10b 1
+R152
+R153
+R154
+!i113 1
+R14
+R15
+Eregister32bit
+Z155 w1544823040
+R5
+R6
+R0
+Z156 8C:/Users/omaar/Desktop/Pipeline Mips/register32bit.vhd
+Z157 FC:/Users/omaar/Desktop/Pipeline Mips/register32bit.vhd
+l0
+L6
+VoV9cd__hPckgaaed33O6d1
+!s100 fQPABz^`Hzh9B^3Rj5Wz`2
+R9
+32
+R151
+!i10b 1
+R152
+Z158 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/register32bit.vhd|
+Z159 !s107 C:/Users/omaar/Desktop/Pipeline Mips/register32bit.vhd|
+!i113 1
+R14
+R15
+Aregister32bitarch
+R5
+R6
+DEx4 work 13 register32bit 0 22 oV9cd__hPckgaaed33O6d1
+l27
+L15
+VRQ>@zV8^;eXfTF_]jQ:z<2
+!s100 l8D5Lg2K?g?D8bINX7_Ko0
+R9
+32
+R151
+!i10b 1
+R152
+R158
+R159
+!i113 1
+R14
+R15
+Eregister4bit
+Z160 w1544823027
+R5
+R6
+R0
+Z161 8C:/Users/omaar/Desktop/Pipeline Mips/register4bit.vhd
+Z162 FC:/Users/omaar/Desktop/Pipeline Mips/register4bit.vhd
+l0
+L6
+V;kHNjUjBl`?93@f6EgV^N1
+!s100 e9TXTNfN2F]f6l8I0k>4]2
+R9
+32
+R151
+!i10b 1
+R152
+Z163 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/register4bit.vhd|
+Z164 !s107 C:/Users/omaar/Desktop/Pipeline Mips/register4bit.vhd|
+!i113 1
+R14
+R15
+Aregister4bitarch
+R5
+R6
+DEx4 work 12 register4bit 0 22 ;kHNjUjBl`?93@f6EgV^N1
+l27
+L15
+VLSaRKHFzHQo<1b2be?7]z0
+!s100 3=hN?U^5A5KzS3>;b[JGB0
+R9
+32
+R151
+!i10b 1
+R152
+R163
+R164
+!i113 1
+R14
+R15
+Eregistersfile
+Z165 w1544824977
+R90
+R5
+R6
+R0
+Z166 8C:/Users/omaar/Desktop/Pipeline Mips/RegistersFile.vhd
+Z167 FC:/Users/omaar/Desktop/Pipeline Mips/RegistersFile.vhd
+l0
+L5
+VRHC7a0N8iLj9CQB_z_bz00
+!s100 @d;JfBfn3N^ZL6ocAVS4H2
+R9
+32
+R151
+!i10b 1
+R152
+Z168 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/RegistersFile.vhd|
+Z169 !s107 C:/Users/omaar/Desktop/Pipeline Mips/RegistersFile.vhd|
+!i113 1
+R14
+R15
+Aregistersfilearch
+R90
+R5
+R6
+DEx4 work 13 registersfile 0 22 RHC7a0N8iLj9CQB_z_bz00
+l19
+L14
+V70EZacZS;CLUglZnGcN?`2
+!s100 ?7lG<Y]5bm8JG>o<FL0872
+R9
+32
+R151
+!i10b 1
+R152
+R168
+R169
+!i113 1
+R14
+R15
+Eshiftleft
+Z170 w1545475422
+R2
+R5
+R6
+R0
+Z171 8C:/Users/omaar/Desktop/Pipeline Mips/shiftleft.vhd
+Z172 FC:/Users/omaar/Desktop/Pipeline Mips/shiftleft.vhd
+l0
+L5
+VjXnYd;YPkd0QPIDZ=bnc?3
+!s100 dA8>V2m0VYZ^EFkEHj^bf1
+R9
+32
+R151
+!i10b 1
+R152
+Z173 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/shiftleft.vhd|
+Z174 !s107 C:/Users/omaar/Desktop/Pipeline Mips/shiftleft.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R5
+R6
+DEx4 work 9 shiftleft 0 22 jXnYd;YPkd0QPIDZ=bnc?3
+l16
+L13
+VR>cP4d[?l7gV=V::fDHa?2
+!s100 al^EV@:NfM9KKicBI=oBR2
+R9
+32
+R151
+!i10b 1
+R152
+R173
+R174
+!i113 1
+R14
+R15
+Eshiftleft28in
+Z175 w1548532625
+R2
+R5
+R6
+R0
+Z176 8C:/Users/omaar/Desktop/Pipeline Mips/shiftleft28In.vhd
+Z177 FC:/Users/omaar/Desktop/Pipeline Mips/shiftleft28In.vhd
+l0
+L5
+VR82m`]e0S]=HCdQ`bWDg<2
+!s100 lbAVh7A0<oe72EfV@_7_80
+R9
+32
+Z178 !s110 1549052982
+!i10b 1
+Z179 !s108 1549052982.000000
+Z180 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/shiftleft28In.vhd|
+Z181 !s107 C:/Users/omaar/Desktop/Pipeline Mips/shiftleft28In.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R5
+R6
+DEx4 work 13 shiftleft28in 0 22 R82m`]e0S]=HCdQ`bWDg<2
+l16
+L13
+Vc<2oB6eG9kl<XRlL_k=1>2
+!s100 2Fa5BCjHMz>jT_?=dc2Go1
+R9
+32
+R178
+!i10b 1
+R179
+R180
+R181
+!i113 1
+R14
+R15
+Esignextender
+Z182 w1545457553
+R5
+R6
+R0
+Z183 8C:/Users/omaar/Desktop/Pipeline Mips/signextender.vhd
+Z184 FC:/Users/omaar/Desktop/Pipeline Mips/signextender.vhd
+l0
+L3
+V4Vc1hQhFSdnf1REI]4B2l2
+!s100 V1fUJo_iL^:<FVDNNRo>K3
+R9
+32
+R151
+!i10b 1
+R152
+Z185 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/signextender.vhd|
+Z186 !s107 C:/Users/omaar/Desktop/Pipeline Mips/signextender.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R5
+R6
+DEx4 work 12 signextender 0 22 4Vc1hQhFSdnf1REI]4B2l2
+l13
+L11
+Vz[E<>OZZ[n2Nb8`6]LIbm2
+!s100 G3Q0QMi6dSRYHUBDPC70S2
+R9
+32
+R151
+!i10b 1
+R152
+R185
+R186
+!i113 1
+R14
+R15
+Esignextenderfivebits
+Z187 w1548530819
+R5
+R6
+R0
+Z188 8C:/Users/omaar/Desktop/Pipeline Mips/signextenderFiveBits.vhd
+Z189 FC:/Users/omaar/Desktop/Pipeline Mips/signextenderFiveBits.vhd
+l0
+L3
+VhXz;e8gKIXUIX<QlSYz[d0
+!s100 QKm=RShn6X3[6NEzz42R80
+R9
+32
+R151
+!i10b 1
+R152
+Z190 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/signextenderFiveBits.vhd|
+Z191 !s107 C:/Users/omaar/Desktop/Pipeline Mips/signextenderFiveBits.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R5
+R6
+DEx4 work 20 signextenderfivebits 0 22 hXz;e8gKIXUIX<QlSYz[d0
+l13
+L11
+Vk_4K;eRdSMdi[LTEE:iL00
+!s100 UW`c@YE4]@DO[Dn4cBPfT0
+R9
+32
+R151
+!i10b 1
+R152
+R190
+R191
+!i113 1
+R14
+R15
+Estagefive
+Z192 w1548954494
+Z193 DPx4 work 15 stagetwopackage 0 22 3P?kJ;o0]U9>kWS]mERGF1
+R5
+R6
+R0
+Z194 8C:/Users/omaar/Desktop/Pipeline Mips/stageFive.vhd
+Z195 FC:/Users/omaar/Desktop/Pipeline Mips/stageFive.vhd
+l0
+L5
+V4lD>YFZKDgzkRAgTYJDQa0
+!s100 eBcTnf:Ycc8F^>5S;?MzV0
+R9
+32
+R10
+!i10b 1
+R152
+Z196 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/stageFive.vhd|
+Z197 !s107 C:/Users/omaar/Desktop/Pipeline Mips/stageFive.vhd|
+!i113 1
+R14
+R15
+Astagefivearch
+R193
+R5
+R6
+DEx4 work 9 stagefive 0 22 4lD>YFZKDgzkRAgTYJDQa0
+l29
+L16
+VM;?Pdmff5K>ZR_?QQ8@H[3
+!s100 dF;TkRc??Jia02Ab2zC>Y3
+R9
+32
+R10
+!i10b 1
+R152
+R196
+R197
+!i113 1
+R14
+R15
+Estagefour
+Z198 w1548718460
+R5
+R6
+R0
+Z199 8C:/Users/omaar/Desktop/Pipeline Mips/stageFour.vhd
+Z200 FC:/Users/omaar/Desktop/Pipeline Mips/stageFour.vhd
+l0
+L5
+VA1h:9J=YaI>ZlV98zIWT_3
+!s100 46:Y8>OE]N>bE;kh7m6T=1
+R9
+32
+R10
+!i10b 1
+R11
+Z201 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/stageFour.vhd|
+Z202 !s107 C:/Users/omaar/Desktop/Pipeline Mips/stageFour.vhd|
+!i113 1
+R14
+R15
+Astagefourarch
+R5
+R6
+DEx4 work 9 stagefour 0 22 A1h:9J=YaI>ZlV98zIWT_3
+l27
+L16
+VOX=T=BZbMVn`e^[3d<DHa0
+!s100 18NgYAI511Cel?;z98_hO2
+R9
+32
+R10
+!i10b 1
+R11
+R201
+R202
+!i113 1
+R14
+R15
+Estageone
+Z203 w1549050629
+Z204 DPx4 work 15 stageonepackage 0 22 jISEjd`4F[4[o8eC^jOP72
+R5
+R6
+R0
+Z205 8C:/Users/omaar/Desktop/Pipeline Mips/stageOne.vhd
+Z206 FC:/Users/omaar/Desktop/Pipeline Mips/stageOne.vhd
+l0
+L6
+VcJRQ0_Xl]jG^Z=IYFl5hB2
+!s100 QZ]42c2h^gWWdCG6fab8k1
+R9
+32
+Z207 !s110 1549050663
+!i10b 1
+Z208 !s108 1549050663.000000
+Z209 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/stageOne.vhd|
+Z210 !s107 C:/Users/omaar/Desktop/Pipeline Mips/stageOne.vhd|
+!i113 1
+R14
+R15
+Astageonearch
+R204
+R5
+R6
+DEx4 work 8 stageone 0 22 cJRQ0_Xl]jG^Z=IYFl5hB2
+l21
+L16
+VoiO52FXOfhRXkohBdJUkF3
+!s100 ]4nMa1WZeaQf;?jiz38103
+R9
+32
+R207
+!i10b 1
+R208
+R209
+R210
+!i113 1
+R14
+R15
+Pstageonepackage
+R5
+R6
+w1548883740
+R0
+8C:/Users/omaar/Desktop/Pipeline Mips/stageOnePackage.vhd
+FC:/Users/omaar/Desktop/Pipeline Mips/stageOnePackage.vhd
+l0
+L3
+VjISEjd`4F[4[o8eC^jOP72
+!s100 SM=;R4G@g6Nmiz8?BEZlo1
+R9
+32
+R10
+!i10b 1
+R11
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/stageOnePackage.vhd|
+!s107 C:/Users/omaar/Desktop/Pipeline Mips/stageOnePackage.vhd|
+!i113 1
+R14
+R15
+Estagethree
+Z211 w1548718497
+Z212 DPx4 work 17 stagethreepackage 0 22 ZO]33X=fF`S?iPcPO=3zT0
+R5
+R6
+R0
+Z213 8C:/Users/omaar/Desktop/Pipeline Mips/stageThree.vhd
+Z214 FC:/Users/omaar/Desktop/Pipeline Mips/stageThree.vhd
+l0
+L6
+Vim]iKigg3S>TeI5Pj5[kJ2
+!s100 _gE7`S?7d24H859jgOhRl3
+R9
+32
+R10
+!i10b 1
+R11
+Z215 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/stageThree.vhd|
+Z216 !s107 C:/Users/omaar/Desktop/Pipeline Mips/stageThree.vhd|
+!i113 1
+R14
+R15
+Astagethreearch
+R212
+R5
+R6
+DEx4 work 10 stagethree 0 22 im]iKigg3S>TeI5Pj5[kJ2
+l25
+L20
+Vg6>nJmKmnB^eei1>?5dB63
+!s100 _lQU7D46S`BJUnLkKQ?hd2
+R9
+32
+R10
+!i10b 1
+R11
+R215
+R216
+!i113 1
+R14
+R15
+Pstagethreepackage
+R5
+R6
+w1548609721
+R0
+8C:/Users/omaar/Desktop/Pipeline Mips/stageThreePackage.vhd
+FC:/Users/omaar/Desktop/Pipeline Mips/stageThreePackage.vhd
+l0
+L3
+VZO]33X=fF`S?iPcPO=3zT0
+!s100 G1W?EdXA43GFA5<P?Oe543
+R9
+32
+R10
+!i10b 1
+R11
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/stageThreePackage.vhd|
+!s107 C:/Users/omaar/Desktop/Pipeline Mips/stageThreePackage.vhd|
+!i113 1
+R14
+R15
+Estagetwo
+Z217 w1548966481
+R193
+R5
+R6
+R0
+Z218 8C:/Users/omaar/Desktop/Pipeline Mips/stageTwo.vhd
+Z219 FC:/Users/omaar/Desktop/Pipeline Mips/stageTwo.vhd
+l0
+L5
+VN=ezTZ?fzoP<UlZ5Wo?b@0
+!s100 b>>dhiZUfe1mZ<8P1TQUP3
+R9
+32
+R10
+!i10b 1
+R11
+Z220 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/omaar/Desktop/Pipeline Mips/stageTwo.vhd|
+Z221 !s107 C:/Users/omaar/Desktop/Pipeline Mips/stageTwo.vhd|
+!i113 1
+R14
+R15
+Astagetwoarch
+R193
+R5
+R6
+DEx4 work 8 stagetwo 0 22 N=ezTZ?fzoP<UlZ5Wo?b@0
+l30
+L19
+VIXc;cQlQ_Q^]fGHTZnS6a1
+!s100 hD_J=V7;=QIA2ZKmlTQOd3
+R9
+32
+R10
+!i10b 1
+R11
+R220
+R221
+!i113 1
+R14
+R15
+Pstagetwopackage
+R5
+R6
+w1548966503
+R0
+8C:\Users\omaar\Desktop\Pipeline Mips\stageTwoPackage.vhd
+FC:\Users\omaar\Desktop\Pipeline Mips\stageTwoPackage.vhd
+l0
+L3
+V3P?kJ;o0]U9>kWS]mERGF1
+!s100 X3CfQc?ef3HF]ZRfQT88m2
+R9
+32
+R10
+!i10b 1
+R11
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\omaar\Desktop\Pipeline Mips\stageTwoPackage.vhd|
+!s107 C:\Users\omaar\Desktop\Pipeline Mips\stageTwoPackage.vhd|
+!i113 1
+R14
+R15
